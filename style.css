@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.bar{
+    background-color: beige;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
