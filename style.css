@@ -4,10 +4,36 @@
 }
 
 .bar{
-    background-color: beige;
+    background-color: #f5f5dc;
     padding: 2rem;
     text-align: center;
     font-size: 1rem;
 }
 
+.buttonList {
+    margin: 2rem 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
 
+}
+
+.buttonList button {
+    padding: 1rem;
+    border: none;
+    background-color: #f9dcc9;
+}
+
+.buttonList button:hover {
+    background-color: #f48033;
+    cursor: pointer;
+}
+
+.identificationList {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.identificationList img{
+    width: 150px;
+}

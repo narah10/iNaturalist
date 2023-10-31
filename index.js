@@ -46,7 +46,7 @@ form.addEventListener('submit', async (event) => {
                     const img = document.createElement('img');
                     const p = document.createElement('p');
                     img.src = ids.photos[0].url;
-                    p.textContent = ids.taxon.preferred_common_name;
+                    p.textContent = `Name: ${ids.taxon.preferred_common_name}`;
                     identificationsContainer.appendChild(p);
                     identificationsContainer.appendChild(img);
                 } catch (error) {
